@@ -1,31 +1,37 @@
 {
-  "name": "سيريان جيمز Syrian Games",
-  "description": "من خلال هذه الصفحة يمكنك الوصول الى جميع مواقع وحسابات سيريان جميز عبر الأنترنت\n\n[](https://www.syrian-games.sy/topics/4608)",
+  "name": "Syrian Games سيريان جيمز",
+  "description": "من خلال هذه الصفحة يمكنك الوصول الى جميع مواقع وحسابات سيريان جميز عبر الأنترنت",
   "avatar": "/uploads/facebook logo website (2).png",
   "showAttribution": false,
   "theme": {
-    "primary": "#536ee5",
-    "secondary": "#536ee5",
+    "primary": "#ffab3a",
+    "secondary": "#054575",
     "background": "#FFFFFF",
     "text": "#1F2937"
   },
   "links": [
     {
-      "title": "My Website",
-      "subtitle": "yourdomain.com",
-      "url": "https://example.com",
-      "icon": "globe"
+      "title": "بعنوان أول عودة سيريان جيمز",
+      "subtitle": "",
+      "url": "https://www.syrian-games.sy/games/4598",
+      "icon": "nimblr"
     },
     {
-      "title": "Instagram",
-      "subtitle": "@yourhandle",
-      "url": "https://instagram.com/yourhandle",
+      "title": "حساب سيريان جيمز عبر فيسبوك",
+      "subtitle": "",
+      "url": "https://www.facebook.com/SyrianGamesPage/",
+      "icon": "facebook"
+    },
+    {
+      "title": "حساب سيريان جيمز عبر انستغرام",
+      "subtitle": "",
+      "url": "https://www.instagram.com/syriangames.sy/",
       "icon": "instagram"
     },
     {
-      "title": "Email me",
-      "subtitle": "you@yourdomain.com",
-      "url": "mailto:you@yourdomain.com",
+      "title": "البريد الالكتروني",
+      "subtitle": "",
+      "url": "mailto:support@syrian-gamaes.sy",
       "icon": "mail"
     }
   ],
