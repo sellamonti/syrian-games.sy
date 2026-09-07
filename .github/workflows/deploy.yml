@@ -1,39 +1,43 @@
-name: Deploy to GitHub Pages
+name: 🚀 Deploy Astro to GitHub Pages
 
 on:
-  # رح يشتغل الكود تلقائياً لما تعدل أي شي بفرع main
   push:
-    branches: [ main ]
-  # بيسمحلك تشغل الكود يدوياً إذا لزم الأمر
+    branches:
+      - main
+
   workflow_dispatch:
 
-# إعطاء الصلاحيات اللازمة لجيت هب لرفع الملفات
 permissions:
   contents: read
   pages: write
   id-token: write
 
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
+    name: 🔨 Build Astro
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout your repository using git
-        uses: actions/checkout@v4
-        
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
-        with:
-          path: .
-          node-version: 20
-          package-manager: npm
+      - name: 📥 Checkout
+        uses: actions/checkout@v7
+
+      - name: 🚀 Build and upload Astro
+        uses: withastro/action@v6
 
   deploy:
+    name: 🌐 Deploy to GitHub Pages
     needs: build
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 🌐 Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
