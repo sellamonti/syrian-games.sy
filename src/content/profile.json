@@ -1,9 +1,8 @@
 {
-  "name": "Your Name",
-  "title": "",
-  "description": "Maker, writer, and occasional photographer.",
-  "avatar": "/uploads/avatar-placeholder.svg",
-  "showAttribution": true,
+  "name": "سيريان جيمز Syrian Games",
+  "description": "من خلال هذه الصفحة يمكنك الوصول الى جميع مواقع وحسابات سيريان جميز عبر الأنترنت\n\n[](https://www.syrian-games.sy/topics/4608)",
+  "avatar": "/uploads/facebook logo website (2).png",
+  "showAttribution": false,
   "theme": {
     "primary": "#536ee5",
     "secondary": "#536ee5",
@@ -29,5 +28,14 @@
       "url": "mailto:you@yourdomain.com",
       "icon": "mail"
     }
-  ]
+  ],
+  "metaTitle": "سيريان جيمز",
+  "metaDescription": "",
+  "verified": {
+    "provider": "realhandles",
+    "handle": "",
+    "url": "",
+    "label": ""
+  },
+  "title": ""
 }
